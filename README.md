@@ -1,7 +1,7 @@
 # react-redux-example
 A Django project that shows the basics of React and Redux.
 
-This project builds off of the [django-react-starterpack](https://github.com/kkworden/django-react-starterpack).
+This project builds off of the [django-react-starterpack](https://github.com/kkworden/django-react-starterpack), and accompanies the Medium article [React and Redux - Creating a Powerful Stateful App](https://medium.com/@mr.burkes/react-and-redux-creating-a-powerful-stateful-app-631c963b9c34)
 
 ## Getting started
 You will need:
