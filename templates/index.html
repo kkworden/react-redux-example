@@ -1,0 +1,13 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React/Redux Example</title>
+    </head>
+
+    <body>
+        <h1>React/Redux Example</h1>
+        <div id="react-app"></div>
+    </body>
+    {% render_bundle 'main' %}
+</html>

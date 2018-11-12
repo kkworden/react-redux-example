@@ -1,0 +1,27 @@
+{
+  "name": "django-react-starterpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "mkdir -p ./assets/bundles; ./node_modules/.bin/webpack --config webpack.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "redux": "^4.0.1",
+    "webpack": "^4.24.0",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "react-redux": "^5.1.1"
+  }
+}
